@@ -1,0 +1,15 @@
+﻿<Window x:Class="SuiteRunner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuiteRunner"
+        mc:Ignorable="d"
+        Title="🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍ Suite Runner 🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍🏃‍" Height="597" Width="400">
+    <Grid>
+        <Button x:Name="Search" Content="Search" HorizontalAlignment="Center" Margin="0,117,0,0" VerticalAlignment="Top" Background="#FF4DD6C7" Foreground="White" Height="50" Width="150" Click="Button_Click"/>
+        <TextBox x:Name="searchBox" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Width="360" FontSize="15" Margin="0,76,0,0" Text="5900 Alderbridge Way"/>
+        <TextBox x:Name="resultsBox" HorizontalAlignment="Center" Margin="0,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="380" Height="348"  VerticalScrollBarVisibility="Visible" Text="" />
+
+    </Grid>
+</Window>
